@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="PandaCoding">
+  <meta name="keywords" content="대구의 관광명소">
+  <meta name="description" content="대구의 관광명소">
+
+  
+  <title>대구의 관광명소</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <!--부트스트랩 사용하기 위한 코드 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+ <!--구글 폰트 사용-->
+
+
+</head>
+
+<body>
+  <div class="container">
+    <section id="main" class="mx-auto my-5 py-5 px-3">
+      
+       <!--양쪽의 여백을 균등하게 유지하기 위해 mx-auto 선언-->
+      <!--화면에 중앙에 위치하게 하기위헤 mt-5,pb-5,pt-5 선언-->
+      <h1>대구에 놀러온 당신의 선택은?</h1>
+      <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+          <!--화면의 크기에 따라 이미지의 크기를 조절하기위해 col-lg,col0md, co-sm 선언-->
+        <img src="./img/logo.jpeg" alt="mainImage" class="img-fluid">
+          <!--이미지의 크기를 맞추기 위해 img-fluid 선언해줌-->
+      </div>
+      <p>
+        <p>대구에 처음 놀러오셨나요? </p>
+        <p>어디에 갈지 고민이라면 이 검사를 통해서 </p>
+        <p>나에게 맞는 대구의 관광지를 한번 찾아봐요! </p>
+        <p>아래 시작하기 버튼을 눌러 시작해 주세요</p>
+    
+      </p>
+      <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">시작하기</button>
+    </section>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-2 answerBox mx-auto">
+        <div class="col">
+          <div class="card">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="result" class="mx-auto my-5 py-5 px-3">
+      <h1>당신의 결과는?!</h1>
+      <div class="resultname">
+
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+
+      </div>
+      <div class="resultDesc">
+
+      </div>
+    </section>
+
+    <script src="./js/daegu.js" charset="utf-8"></script>
+    <script src="./js/main.js" charset="utf-8"></script>
+   
+  </div>
+</body>
+
+</html>
+
